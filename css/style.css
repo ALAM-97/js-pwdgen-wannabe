@@ -45,10 +45,10 @@ h3 {
 
 .psw-box {
     display: flex;
-    align-items: center;
+    margin: auto;
     justify-content: center;
-    width: 700px;
-    height: 300px;
+    width: 70%;
+    padding: 120px 0;
     background-color: rgb(27, 27, 27);
     margin-top: 40px;
     border-radius: 40px;
@@ -60,5 +60,44 @@ h3 {
     font-size: 2.2rem;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 830px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
+    .psw-box {
+        padding: 100px 0;
+    }
+    .new-psw {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+        margin-top: 100px;
+    }
+    .psw-box {
+        padding: 80px 0;
+    }
+    .new-psw {
+        font-size: 1.2rem;
+    }
+}
 
 
